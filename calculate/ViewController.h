@@ -8,8 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    CGFloat x, y;
+    NSInteger operation;
+    BOOL enterFlag, yFlag;
+}
 
+@property (weak, nonatomic) IBOutlet UILabel *screenLabel;
+
+- (IBAction)clearAllButton:(id)sender;
+- (IBAction)clearButton:(id)sender;
+- (IBAction)inversButton:(id)sender;
+- (IBAction)operationButton:(id)sender;
+- (IBAction)digitButton:(id)sender;
 
 @end
 
