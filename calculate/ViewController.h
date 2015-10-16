@@ -12,6 +12,7 @@
     CGFloat x, y;
     NSInteger operation;
     BOOL enterFlag, yFlag;
+    //
 }
 
 @property (weak, nonatomic) IBOutlet UILabel *screenLabel;
@@ -21,6 +22,8 @@
 - (IBAction)inversButton:(id)sender;
 - (IBAction)operationButton:(id)sender;
 - (IBAction)digitButton:(id)sender;
+
+//lolllllh
 
 @end
 
