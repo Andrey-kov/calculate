@@ -20,7 +20,7 @@
 - (IBAction)clearButton:(id)sender;
 - (IBAction)inversButton:(id)sender;
 - (IBAction)operationButton:(id)sender;
-- (IBAction)digitButton:(id)sender;
+- (IBAction)digitButton:(id)sender;// Кооаоао
 
 @end
 
