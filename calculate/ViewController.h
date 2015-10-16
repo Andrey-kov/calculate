@@ -23,7 +23,7 @@
 - (IBAction)digitButton:(id)sender;/// rjjrjrjrjrjrj
 
 
-
+// проверка ьь
 
 
 ///////vvvv
